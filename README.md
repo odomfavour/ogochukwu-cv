@@ -3,4 +3,4 @@ My Curriculum Vitae in HTML and CSS
 
 ### Link to my hosted site
 
-[My Cv](link)
+[My Cv](https://odomfavour.github.io/ogochukwu-cv/)
