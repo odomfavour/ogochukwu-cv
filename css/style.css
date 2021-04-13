@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+}
+
+.right {
+    width: 70%;
+    padding: 0 20px;
+}
+.left {
+    width: 30%;
+    padding: 0 20px;
+}
+
+.person-name {
+    font-size: 60px;
+}
+
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.blue-text {
+    color: rgb(14, 124, 175);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.company-info {
+    font-size: 20px;
+}
+
+.exp, .my-project {
+    margin-bottom: 20px;
+}
+
+.github, .internship, .hobbies, .refree {
+    margin-top: 40px;
+}
+
+@media(max-width: 425px) {
+
+    .container {
+        width: 90%;
+    }
+    .row {
+        flex-direction: column;
+    }
+
+    .right, .left {
+        width: 100%;
+    }
+
+    .person-name {
+        font-size: 37px;
+    }
+
+    .my-project {
+        word-wrap: break-word;
+    }
+}
+
+@media(max-width: 768px) { 
+    .person-name {
+        font-size: 40px;
+    }
+
+    .my-project {
+        word-wrap: break-word;
+    }
+}
+
+@media(max-width: 1024px) { 
+    .person-name {
+        font-size: 60px;
+    }
+
+    .my-project {
+        word-wrap: break-word;
+    }
+}
