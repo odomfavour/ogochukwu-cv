@@ -35,9 +35,12 @@ body {
 
 
 .intro {
-    margin-bottom: 30px;
+    margin: 70px 0 30px 0;
 }
 
+.list {
+    margin-left: 30px;
+}
 .bold {
     font-weight: 900;
 }
@@ -58,6 +61,12 @@ body {
 
 .github, .internship, .hobbies, .refree {
     margin-top: 40px;
+}
+
+@media(max-width: 375px) {
+    .person-name {
+        font-size: 30px !important;
+    }
 }
 
 @media(max-width: 425px) {
@@ -93,10 +102,7 @@ body {
 }
 
 @media(max-width: 1024px) { 
-    .person-name {
-        font-size: 60px;
-    }
-
+    
     .my-project {
         word-wrap: break-word;
     }
